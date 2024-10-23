@@ -10,7 +10,33 @@ body {
   background-position: center;
 }
 
+#our-selection-banner {
+  background-image: url(images/our-selection.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+#order-now-banner {
+  background-image: url(images/order-now.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+#our-story-banner {
+  background-image: url(images/our-story.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
 #banner-brand {
+  font-weight: 400;
+}
+
+#banners-title {
+  color: white;
   font-weight: 400;
 }
 
@@ -80,9 +106,17 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 200px;
+  }
+
+  .about,
+  .quicklinks,
+  .contact {
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 
   .about {
-    flex-basis: 240px;
+    max-width: 360px;
   }
 }
