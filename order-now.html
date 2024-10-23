@@ -16,7 +16,7 @@
     <!-- NAV -->
     <nav class="navbar sticky-top navbar-expand-sm bg-light navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
             src="images/logo.svg"
             style="width: 75px"
@@ -34,13 +34,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Story</a>
+              <a class="nav-link" href="our-story.html">Our Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Selection</a>
+              <a class="nav-link" href="our-selection.html">Our Selection</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Order Now</a>
+              <a class="nav-link" href="order-now.html">Order Now</a>
             </li>
           </ul>
         </div>
@@ -55,63 +55,48 @@
       <!-- FORM -->
       <section id="form" class="mt-4 p-4">
         <form class="form-horizontal" action="/action_page.php">
-          <div class="form-group">
+          <div class="form-group p-2">
             <label class="control-label col-sm-2" for="name">Name:</label>
             <div class="col-sm-10">
-              <input
-                type="name"
-                class="form-control"
-                id="name"
-                placeholder="Enter name"
-              />
+              <input type="name" class="form-control" id="name" />
             </div>
           </div>
 
-          <div class="form-group">
+          <div class="form-group p-2">
             <label class="control-label col-sm-2" for="email">Email:</label>
             <div class="col-sm-10">
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Enter email"
-              />
+              <input type="email" class="form-control" id="email" />
             </div>
           </div>
 
-          <div class="form-group">
+          <div class="form-group p-2">
             <label class="control-label col-sm-2" for="mobile">Mobile:</label>
             <div class="col-sm-10">
-              <input
-                type="mobile"
-                class="form-control"
-                id="mobile"
-                placeholder="Enter mobile number"
-              />
+              <input type="mobile" class="form-control" id="mobile" />
             </div>
           </div>
 
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="pwd">Your Order</label>
+          <div class="form-group p-2">
+            <label class="control-label col-sm-2" for="pwd">Your Order:</label>
             <div class="col-sm-10">
               <input
-                type="password"
+                type="order"
                 class="form-control"
-                id="pwd"
-                placeholder="Please indicate flavour(s), toppings, quantities and desired delivery date."
+                id="order"
+                style="min-height: 240px"
               />
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group p-2">
             <div class="col-sm-offset-2 col-sm-10">
               <div class="checkbox">
-                <label><input type="checkbox" /> Remember me</label>
+                <label><input type="checkbox" /> I'm not a robot.</label>
               </div>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group p-2">
             <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Submit</button>
+              <a href="#" class="btn btn-success">Submit Order</a>
             </div>
           </div>
         </form>
@@ -132,9 +117,9 @@
 
         <div class="quicklinks">
           <p class="footer-subtitle">QUICK LINKS</p>
-          <p><a href="#">Our Story</a></p>
-          <p><a href="#">Our Selection</a></p>
-          <p><a href="#">Regular Delivery</a></p>
+          <p><a href="our-story.html">Our Story</a></p>
+          <p><a href="our-selection.html">Our Selection</a></p>
+          <p><a href="order-now.html">Order Now</a></p>
         </div>
 
         <div class="contact">
