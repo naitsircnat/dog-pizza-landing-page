@@ -117,6 +117,7 @@ footer a {
   }
 
   .about {
-    max-width: 360px;
+    flex-basis: 200px;
+    max-width: 400px;
   }
 }
